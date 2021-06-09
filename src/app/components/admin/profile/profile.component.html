@@ -1,0 +1,20 @@
+<form action="" (ngSubmit)="onSaveUser(profileForm.value)" [formGroup]="profileForm">
+    <mat-card class="profile-card">
+        <mat-card-header>
+            <img src="https://picsum.photos/150/150" alt="" />
+        </mat-card-header>
+        <mat-card-content>
+            <mat-form-field>
+                <mat-label>Name</mat-label>
+                <input type="text" matInput placeholder="Name" formControlName="displayName" />
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Email</mat-label>
+                <input type="email" matInput placeholder="Name" formControlName="email" />
+            </mat-form-field>
+            <div class="mat-dialog-actions">
+                <input type="submit" class="mat-flat-button" value="Save">
+            </div>
+        </mat-card-content>
+    </mat-card>
+</form>

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ngblog-bc264": {
+      "hosting": {
+        "centromedico": [
+          "ngblog-bc264"
+        ]
+      }
+    }
+  }
+}

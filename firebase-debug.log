@@ -1,0 +1,21 @@
+[debug] [2021-05-26T14:57:56.919Z] ----------------------------------------------------------------------
+[debug] [2021-05-26T14:57:56.923Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Maye\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-26T14:57:56.923Z] CLI Version:   9.11.0
+[debug] [2021-05-26T14:57:56.923Z] Platform:      win32
+[debug] [2021-05-26T14:57:56.923Z] Node Version:  v16.1.0
+[debug] [2021-05-26T14:57:56.925Z] Time:          Wed May 26 2021 09:57:56 GMT-0500 (hora estándar de Colombia)
+[debug] [2021-05-26T14:57:56.925Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-26T14:57:56.937Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-26T14:57:56.938Z] > authorizing via signed-in user (camr2669@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Maye\Desktop\centromedico
+

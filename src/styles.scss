@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.fill-remaining-space {
+    flex: 1 1 auto;
+}
+
+.active {
+    border: 1px solid #f5f5;
+}
+
+.container-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.sport {
+    background: blue !important;
+    color: #fff !important;
+}
+
+.life {
+    background-color: orangered !important;
+    color: #fff !important;
+}
+
+.style {
+    background-color: red !important;
+    color: #fff !important;
+}
+
+mat-chip.mat-chip.mat-primary.mat-standard-chip {
+    min-height: 1rem;
+    padding: 15px;
+}

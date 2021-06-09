@@ -1,0 +1,22 @@
+<div class="container" *ngIf="posts$ | async as post; else loading">
+    <mat-card class="post-card">
+
+        <img matCardImage class="aling-center" [src]="post.imagePost">
+        <mat-card-content>
+            <mat-card-title>
+                <h1>{{post.titlePost}}</h1>
+            </mat-card-title>
+            <p class="content">
+                {{post.contentPost}}
+            </p>
+        </mat-card-content>
+        <mat-card-actions align="start">
+        </mat-card-actions>
+    </mat-card>
+</div>
+
+<ng-template #loading>
+    <div class="container-spinner">
+        <mat-spinner></mat-spinner>
+    </div>
+</ng-template>
